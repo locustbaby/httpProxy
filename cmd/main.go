@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"net/http"
 	"net/http/httputil"
@@ -15,8 +14,7 @@ func startServer() {
 	if err != nil {
 		log.Fatalln("ListenAndServe: ", err)
 	}
-	config.main()
-	fmt.Println(config)
+
 }
 
 func main() {
