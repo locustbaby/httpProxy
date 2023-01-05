@@ -27,7 +27,6 @@ func (c *Config) Init(filepath string) {
 	if err != nil {
 		panic(err)
 	}
-
 	// Unmarshal the data into a Config struct
 	err = yaml.Unmarshal(data, c)
 	if err != nil {
