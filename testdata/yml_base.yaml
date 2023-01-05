@@ -1,0 +1,4 @@
+backend:
+  endpoints:
+    - host:localhost
+      port:80
